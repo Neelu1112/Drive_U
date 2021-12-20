@@ -7,15 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5AD6B6F1BA0CA7F977411558 /* Pods_DriveU.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2AB1BC29AB212915496B734 /* Pods_DriveU.framework */; };
 		8255ABF2276DC33F0035E431 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8255ABF1276DC33F0035E431 /* AppDelegate.swift */; };
 		8255ABF4276DC33F0035E431 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8255ABF3276DC33F0035E431 /* SceneDelegate.swift */; };
 		8255ABF6276DC33F0035E431 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8255ABF5276DC33F0035E431 /* ViewController.swift */; };
 		8255ABF9276DC33F0035E431 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8255ABF7276DC33F0035E431 /* Main.storyboard */; };
 		8255ABFB276DC3410035E431 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8255ABFA276DC3410035E431 /* Assets.xcassets */; };
 		8255ABFE276DC3410035E431 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8255ABFC276DC3410035E431 /* LaunchScreen.storyboard */; };
+		8255AC06276DC8E90035E431 /* CarDetailsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8255AC05276DC8E90035E431 /* CarDetailsCollectionViewCell.swift */; };
+		8255AC08276DC92F0035E431 /* SocialMediaCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8255AC07276DC92F0035E431 /* SocialMediaCollectionViewCell.swift */; };
+		8255AC0C276DC9DB0035E431 /* OffersTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8255AC0B276DC9DB0035E431 /* OffersTableViewCell.swift */; };
+		8255AC0E276DCA110035E431 /* OffersCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8255AC0D276DCA110035E431 /* OffersCollectionViewCell.swift */; };
+		8255AC12276DCCFB0035E431 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8255AC11276DCCFB0035E431 /* Home.swift */; };
+		8255AC14276DF3730035E431 /* FeaturesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8255AC13276DF3730035E431 /* FeaturesCollectionViewCell.swift */; };
+		8255AC16276E06A70035E431 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8255AC15276E06A70035E431 /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4BC6F86675DDCC9DD411E95D /* Pods-DriveU.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DriveU.debug.xcconfig"; path = "Target Support Files/Pods-DriveU/Pods-DriveU.debug.xcconfig"; sourceTree = "<group>"; };
 		8255ABEE276DC33F0035E431 /* DriveU.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DriveU.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8255ABF1276DC33F0035E431 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8255ABF3276DC33F0035E431 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +33,15 @@
 		8255ABFA276DC3410035E431 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8255ABFD276DC3410035E431 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8255ABFF276DC3410035E431 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8255AC05276DC8E90035E431 /* CarDetailsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarDetailsCollectionViewCell.swift; sourceTree = "<group>"; };
+		8255AC07276DC92F0035E431 /* SocialMediaCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialMediaCollectionViewCell.swift; sourceTree = "<group>"; };
+		8255AC0B276DC9DB0035E431 /* OffersTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffersTableViewCell.swift; sourceTree = "<group>"; };
+		8255AC0D276DCA110035E431 /* OffersCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffersCollectionViewCell.swift; sourceTree = "<group>"; };
+		8255AC11276DCCFB0035E431 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		8255AC13276DF3730035E431 /* FeaturesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturesCollectionViewCell.swift; sourceTree = "<group>"; };
+		8255AC15276E06A70035E431 /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		ABA6D66E4B93555964442F73 /* Pods-DriveU.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DriveU.release.xcconfig"; path = "Target Support Files/Pods-DriveU/Pods-DriveU.release.xcconfig"; sourceTree = "<group>"; };
+		B2AB1BC29AB212915496B734 /* Pods_DriveU.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DriveU.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +49,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AD6B6F1BA0CA7F977411558 /* Pods_DriveU.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2FBD8DD77172A2C05C646780 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B2AB1BC29AB212915496B734 /* Pods_DriveU.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8255ABE5276DC33F0035E431 = {
 			isa = PBXGroup;
 			children = (
 				8255ABF0276DC33F0035E431 /* DriveU */,
 				8255ABEF276DC33F0035E431 /* Products */,
+				C3A98A07E81ED6A5BE0EF37E /* Pods */,
+				2FBD8DD77172A2C05C646780 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +87,45 @@
 			children = (
 				8255ABF1276DC33F0035E431 /* AppDelegate.swift */,
 				8255ABF3276DC33F0035E431 /* SceneDelegate.swift */,
-				8255ABF5276DC33F0035E431 /* ViewController.swift */,
+				8255AC15276E06A70035E431 /* CardView.swift */,
+				8255AC11276DCCFB0035E431 /* Home.swift */,
+				8255AC10276DCC8B0035E431 /* Screens */,
+				8255AC0F276DCC760035E431 /* MainCollectionViewCells */,
+				8255AC0B276DC9DB0035E431 /* OffersTableViewCell.swift */,
 				8255ABF7276DC33F0035E431 /* Main.storyboard */,
 				8255ABFA276DC3410035E431 /* Assets.xcassets */,
 				8255ABFC276DC3410035E431 /* LaunchScreen.storyboard */,
 				8255ABFF276DC3410035E431 /* Info.plist */,
 			);
 			path = DriveU;
+			sourceTree = "<group>";
+		};
+		8255AC0F276DCC760035E431 /* MainCollectionViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				8255AC05276DC8E90035E431 /* CarDetailsCollectionViewCell.swift */,
+				8255AC07276DC92F0035E431 /* SocialMediaCollectionViewCell.swift */,
+				8255AC13276DF3730035E431 /* FeaturesCollectionViewCell.swift */,
+				8255AC0D276DCA110035E431 /* OffersCollectionViewCell.swift */,
+			);
+			path = MainCollectionViewCells;
+			sourceTree = "<group>";
+		};
+		8255AC10276DCC8B0035E431 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				8255ABF5276DC33F0035E431 /* ViewController.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		C3A98A07E81ED6A5BE0EF37E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4BC6F86675DDCC9DD411E95D /* Pods-DriveU.debug.xcconfig */,
+				ABA6D66E4B93555964442F73 /* Pods-DriveU.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +135,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8255AC02276DC3410035E431 /* Build configuration list for PBXNativeTarget "DriveU" */;
 			buildPhases = (
+				1B95AB585903E43E3D6E0474 /* [CP] Check Pods Manifest.lock */,
 				8255ABEA276DC33F0035E431 /* Sources */,
 				8255ABEB276DC33F0035E431 /* Frameworks */,
 				8255ABEC276DC33F0035E431 /* Resources */,
+				CB39F4BB79BC6EE100EDF87A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,13 +196,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1B95AB585903E43E3D6E0474 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DriveU-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB39F4BB79BC6EE100EDF87A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DriveU/Pods-DriveU-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DriveU/Pods-DriveU-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DriveU/Pods-DriveU-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8255ABEA276DC33F0035E431 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8255AC0C276DC9DB0035E431 /* OffersTableViewCell.swift in Sources */,
+				8255AC06276DC8E90035E431 /* CarDetailsCollectionViewCell.swift in Sources */,
 				8255ABF6276DC33F0035E431 /* ViewController.swift in Sources */,
+				8255AC14276DF3730035E431 /* FeaturesCollectionViewCell.swift in Sources */,
+				8255AC16276E06A70035E431 /* CardView.swift in Sources */,
+				8255AC08276DC92F0035E431 /* SocialMediaCollectionViewCell.swift in Sources */,
 				8255ABF2276DC33F0035E431 /* AppDelegate.swift in Sources */,
+				8255AC0E276DCA110035E431 /* OffersCollectionViewCell.swift in Sources */,
+				8255AC12276DCCFB0035E431 /* Home.swift in Sources */,
 				8255ABF4276DC33F0035E431 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,6 +396,7 @@
 		};
 		8255AC03276DC3410035E431 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BC6F86675DDCC9DD411E95D /* Pods-DriveU.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -311,6 +424,7 @@
 		};
 		8255AC04276DC3410035E431 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABA6D66E4B93555964442F73 /* Pods-DriveU.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
